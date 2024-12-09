@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Session Appointment Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<main>
+
+    <body>
+        <!-- <form action="" method="post"> Connect to formspree.io-->
+        <form action="https://formspree.io/f/xovqedyy" method="POST">
+            <fieldset>
+                <legend>Tutoring Session Appointment Form</legend>
+                <h1>Welcome!</h1>
+                <div><label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name"></div>
+
+                <div><label for="last-name">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name"></div>
+                <div><label for="program">Program: </label>
+                    <input type="text" id="program" name="program"></div>
+
+                <div class="radio-group">
+                    <h2>Tutoring Courses:</h2>
+                    <label for="SI106" class="radio-selection">
+                    <input type="radio" id="SI106" name="tutoring-courses" value="SI106">
+                    SI106: Programming 1
+                </label>
+
+                    <label for="SI206" class="radio-selection">
+                    <input type="radio" id="SI206" name="tutoring-courses" value="SI206">
+                    SI206: Programming 2
+                </label>
+
+                    <label for="SI422" class="radio-selection">
+                    <input type="radio" id="SI422" name="tutoring-courses" value="SI422">
+                    SI422: Building Mobile Applications
+                </label>
+
+                    <label for="SI320" class="radio-selection">
+                    <input type="radio" id="SI320" name="tutoring-courses" value="SI320">
+                    SI320: Data Statistics
+                </label>
+                </div>
+                <div>
+                    <label for="available-time">Available Time:</label>
+                    <select id="available-time" name="available-time">
+                <option value="option1">13:00-14:00 11/02 </option>
+                <option value="option2">13:00-14:00 11/03</option>
+                <option value="option3">15:00-16:00 11/04</option>
+                <option value="option4">13:00-14:00 11/04</option>
+                <option value="option5">13:00-14:00 11/05</option>
+                <option value="option6">13:00-14:00 11/06</option>
+                </select>
+                </div>
+
+                <div><input type="submit" value="Submit"></div>
+            </fieldset>
+        </form>
+    </body>
+</main>
+
+</html>

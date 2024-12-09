@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMSI Programming Tutoring</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" style="width: 25px;" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="UMSI Programming Tutoring.html" class="active">Tutors</a></li>
+                <li><a href="Meet the UMSI Peer Tutoring Team.html">Courses</a></li>
+                <li><a href="Additional Academic Support.html">Careers</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main id="main">
+        <div class="filter-container">
+            <div id="course-filter">
+                <h1 style="text-align:left">Search</h1>
+                <h4>Filter by Course:</h4>
+                <label><input type="checkbox" value="math"> Math</label><br>
+                <label><input type="checkbox" value="programming"> Programming</label><br>
+            </div>
+
+            <div id="job-filter">
+                <h4>Filter by Job Type:</h4>
+                <label><input type="checkbox" value="full-time"> Full-Time</label><br>
+                <label><input type="checkbox" value="part-time"> Part-Time</label><br>
+            </div>
+
+            <button id="apply-filters">Apply Filters</button>
+        </div>
+
+        <div class="tutor-cards-container">
+            <div class="tutor-card" data-course="math" data-job="full-time">
+                <img src="images/tutor2.jpg" alt="John Doe" style:width="30px">
+                <div class="tutor-info">
+                    <h3>John Doe</h3>
+                    <p>Course: Math</p>
+                    <p>Job Type: Full-Time</p>
+                </div>
+                <div class="self-introduction">
+                    <h4>Tutor Introduction</h4>
+                    <p>Hey! My name is John and I am a senior in the BSI program on the Information Analysis pathway with minors in Computer Science and Digital Studies. I have an extensive background working with Python and SQL and would love to help you
+                        out.
+                    </p>
+                </div>
+                <div class="student-comment">
+                    <p>"Smart, clear, encouraging and patient! John was clearly born to be a math teacher!"
+                    </p>
+                </div>
+                <button type="button" class="appointment-button" tabindex="0" onclick="window.location.href='clientform/form.html'" aria-label="Book an appointment">Book an appointment</button>
+            </div>
+            <div class="tutor-card" data-course="programming" data-job="part-time">
+                <img src="images/tutor1.jpg" alt="Jane Smith" style:width="30px">
+                <div class="tutor-info">
+                    <h3>Jane Smith</h3>
+                    <p>Course: Programming</p>
+                    <p>Job Type: Part-Time</p>
+                </div>
+                <div class="self-introduction">
+                    <h4>Tutor Introduction</h4>
+                    <p>Hey! My name is John and I am a senior in the BSI program on the Information Analysis pathway with minors in Computer Science and Digital Studies. I have an extensive background working with Python and SQL and would love to help you
+                        out.
+                    </p>
+                </div>
+                <div class="student-comment">
+                    <p>"Smart, clear, encouraging and patient! John was clearly born to be a math teacher!"
+                    </p>
+                </div>
+                <button type="button" class="appointment-button" tabindex="0" onclick="window.location.href='clientform/form.html'" aria-label="Book an appointment">Book an appointment</button>
+            </div>
+            <div class="tutor-card" data-course="math" data-job="part-time">
+                <img src="images/tutor3.jpg" alt="Mark Lee" style:width="30px">
+                <div class="tutor-info">
+                    <h3>Mark Lee
+                    </h3>
+                    <p>Course: Math</p>
+                    <p>Job Type: Part-Time</p>
+                </div>
+                <div class="self-introduction">
+                    <h4>Tutor Introduction</h4>
+                    <p>Hey! My name is John and I am a senior in the BSI program on the Information Analysis pathway with minors in Computer Science and Digital Studies. I have an extensive background working with Python and SQL and would love to help you
+                        out.
+                    </p>
+                </div>
+                <div class="student-comment">
+                    <p>"Smart, clear, encouraging and patient! John was clearly born to be a math teacher!"
+                    </p>
+                </div>
+                <button type="button" class="appointment-button" tabindex="0" onclick="window.location.href='clientform/form.html'" aria-label="Book an appointment">Book an appointment</button>
+            </div>
+            <div class="tutor-card" data-course="programming" data-job="full-time">
+                <img src="images/tutor4.jpg" alt="Amily Smith" style:width="30px">
+                <div class="tutor-info">
+                    <h3>Amily Smith</h3>
+                    <p>Course: Programming</p>
+                    <p>Job Type: Full-Time</p>
+                </div>
+                <div class="self-introduction">
+                    <h4>Tutor Introduction</h4>
+                    <p>Hey! My name is John and I am a senior in the BSI program on the Information Analysis pathway with minors in Computer Science and Digital Studies. I have an extensive background working with Python and SQL and would love to help you
+                        out.
+                    </p>
+                </div>
+                <div class="student-comment">
+                    <p>"Smart, clear, encouraging and patient! John was clearly born to be a math teacher!"
+                    </p>
+                </div>
+                <button type="button" class="appointment-button" tabindex="0" onclick="window.location.href='clientform/form.html'" aria-label="Book an appointment">Book an appointment</button>
+            </div>
+        </div>
+
+        <!-- <h1>UMSI Programming Tutoring</h1>
+        <div class="peer">
+            <h2>UMSI Programming Peer Tutoring Information Available for the below courses:</h2>
+            <img src="images/UMSI_MichiganUnion_Reopening_16.jpg" alt="UMSI_MichiganUnion_Reopening_16">
+            <p> Please note, we have UMSI Programming Peer Tutors available for both SI and SIADS courses. Please review the course offerings and support available in the below sections to identify the UMSI Programming Peer Tutors that best support your needs.
+            </p>
+            <ul>
+                <li>SI 106 Programs, Information, and People</li>
+                <li>SI 206 Data-Oriented Programming</li>
+                <li>SI 506 Programming I</li>
+                <li>SI 507 Intermediate Programming</li>
+                <li>General Python support</li>
+            </ul>
+        </div>
+
+        <div class="tutor-card" data-course="math" data-job="full-time">
+            <h3>John Doe</h3>
+            <p>Teaches: Math</p>
+            <p>Job Type: Full-Time</p>
+        </div>
+        <div class="tutor-card" data-course="programming" data-job="part-time">
+            <h3>Jane Smith</h3>
+            <p>Teaches: Programming</p>
+            <p>Job Type: Part-Time</p>
+        </div>
+        <div class="tutor-card" data-course="math" data-job="part-time">
+            <h3>Mark Lee</h3>
+            <p>Teaches: Math</p>
+            <p>Job Type: Part-Time</p>
+        </div>
+        <div class="tutor-card" data-course="programming" data-job="full-time">
+            <h3>Emily Davis</h3>
+            <p>Teaches: Programming</p>
+            <p>Job Type: Full-Time</p>
+        </div>
+
+        <div class="appointment">
+            <h2>Book Appointments with our Programming Peer Tutors:</h2>
+            <img src="images/Tutoring.jpg" alt="Tutoring" style:width="300px">
+            <h3>Akash Dewan</h3>
+            <p> Hey! My name is Akash Dewan and I am a senior in the BSI program on the Information Analysis pathway with minors in Computer Science and Digital Studies. I have an extensive background working with Python and SQL and would love to help you
+                out in any of the following classes: SI 106, SI 206/506, SI 305, and SI 330. I am looking to go into Data Analytics / Quantitative Research in the Media/Entertainment Industry so if that is something that aligns with you, please reach
+                out! Outside of academics, I am an avid filmmaker, photographer, and music lover so feel free to hit me with any questions about balancing school with art / ways to get involved artistically on campus! Or if you just wanna yap about existential
+                topics...~
+            </p>
+
+            <h3>Prem Ganesan</h3>
+            <p> Hey there! I'm diving into the world of health informatics as a first-year master's student, armed with a computer science master's degree. My playground includes data analysis, machine learning, and AI, all in the fascinating realm of healthcare.
+                Python has been my coding buddy for a solid 3 years now. Beyond the books, I'm a soccer enthusiast, juggling the ball professionally. Let's make this tutoring journey a blast—connecting the tech dots with a sprinkle of fun!</p>
+
+            <h3>Prem Ganesan</h3>
+            <p> Hey there! I'm diving into the world of health informatics as a first-year master's student, armed with a computer science master's degree. My playground includes data analysis, machine learning, and AI, all in the fascinating realm of healthcare.
+                Python has been my coding buddy for a solid 3 years now. Beyond the books, I'm a soccer enthusiast, juggling the ball professionally. Let's make this tutoring journey a blast—connecting the tech dots with a sprinkle of fun!</p>
+
+            <button type="button" class="appointment-button" onclick="window.location.href='clientform/form.html'">Book an appointment</button>
+        </div> -->
+    </main>
+
+    <footer style="margin-left: 20%;">
+        <p>UMSI Academic Success | <a href="https://www.si.umich.edu/student-experience/academic-success"> umsi.academicsuccess@umich.edu </a></p>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
+    </footer>
+
+    <script src="js/tutor.js">
+    </script>
+</body>
+
+</html>
